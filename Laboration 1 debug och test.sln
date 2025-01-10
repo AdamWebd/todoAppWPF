@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "todoAppWPF", "Laboration 1 debug och test\todoAppWPF.csproj", "{F1D3116B-B186-478E-B370-29E83E4A66A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AC5CD4E8-E072-4F2F-A792-BAE39FC7AF64}"
+	ProjectSection(SolutionItems) = preProject
+		Class1.cs = Class1.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1D3116B-B186-478E-B370-29E83E4A66A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1D3116B-B186-478E-B370-29E83E4A66A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1D3116B-B186-478E-B370-29E83E4A66A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1D3116B-B186-478E-B370-29E83E4A66A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
