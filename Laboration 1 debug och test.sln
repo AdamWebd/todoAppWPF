@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "todoAppWPF", "Laboration 1 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AC5CD4E8-E072-4F2F-A792-BAE39FC7AF64}"
 	ProjectSection(SolutionItems) = preProject
-		Class1.cs = Class1.cs
+		todoList.cs = todoList.cs
 	EndProjectSection
 EndProject
 Global

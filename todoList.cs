@@ -5,8 +5,12 @@ using System.Text;
 using System.Threading.Tasks
 
 namespace todoAppWPF
-
-ínternal class todoList
 {
+    //<Summary>
+    //Hanterar logiken för att lägga till, ta bort och ändra
+    //</summary>
+    ínternal class todoList
+    {
 
+    }
 }
