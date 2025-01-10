@@ -6,9 +6,6 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "todoAppWPF", "Laboration 1 debug och test\todoAppWPF.csproj", "{F1D3116B-B186-478E-B370-29E83E4A66A6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AC5CD4E8-E072-4F2F-A792-BAE39FC7AF64}"
-	ProjectSection(SolutionItems) = preProject
-		todoList.cs = todoList.cs
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

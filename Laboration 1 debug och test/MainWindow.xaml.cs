@@ -16,26 +16,31 @@ namespace TodoAppWPF
     /// </summary>
     public partial class MainWindow : Window
     {
-        public TodoList _todoList;
+        private TodoList _todoList;
         public MainWindow()
         {
             InitializeComponent();
-            
-        }
-
-        private void InitializeComponent()
-        {
-            throw new NotImplementedException();
+            _todoList = new TodoList();
         }
 
         private void AddButton_Click(object sender, RoutedEventArgs e)
         {
-     
+            string task = TaskTextBox.Text;
+            if (!string.IsNullOrEmpty(task))
+            {
+                _todoList.AddTask(task);
+                UpdateTaskList();
+                TaskTextBox.Clear();
+            }
         }
 
         private void UpdateTaskList()
         {
-
+            TasksListBox.Items.Clear();
+            foreach (var task in _todoList.GetAllTasks())
+            {
+                TasksListBox.Items.Add(task);
+            }
         }
 
         private void GetAllTasks()
@@ -45,7 +50,11 @@ namespace TodoAppWPF
 
         private void RemoveButton_Click(Object sender, RoutedEventArgs e) 
         { 
-
+            if(TasksListBox.SelectedIndex >= 0)
+            {
+                _todoList.RemoveTask(TasksListBox.SelectedIndex);
+                UpdateTaskList();
+            }
         }
     }
 }

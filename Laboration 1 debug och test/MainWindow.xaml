@@ -1,4 +1,4 @@
-﻿<Window x:Class="Laboration_1_debug_och_test.MainWindow"
+﻿<Window x:Class="TodoAppWPF.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -7,9 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="603" Width="1218">
     <Grid>
-        <TextBox Name="Tasktextbox" HorizontalAlignment="Left" Margin="121,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="767" Height="77" FontSize="25px" Text=""/>
+        <TextBox Name="TaskTextBox" HorizontalAlignment="Left" Margin="121,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="767" Height="77" FontSize="25px" Text=""/>
         <Button Name="AddButton" Content="Add task" HorizontalAlignment="Left" Margin="928,77,0,0" VerticalAlignment="Top" Height="77" Width="167" FontSize="25px" FontWeight="Bold" Foreground="White" Background="Green" Click="AddButton_Click"/>
-        <TextBox Name="TaskListBox" HorizontalAlignment="Center" Margin="0,160,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="974" Height="259" FontSize="25px" Text=""/>
+        <ListBox  Name="TasksListBox" HorizontalAlignment="Center" Margin="0,160,0,0" VerticalAlignment="Top" Width="974" Height="259" FontSize="25px"/>
         <Button Name="RemoveButton" Content="Remove task" HorizontalAlignment="Left" Margin="928,428,0,0" VerticalAlignment="Top" Height="77" Width="167" FontSize="25px" FontWeight="Bold" Foreground="White" Background="Red" Click="RemoveButton_Click"/>
     </Grid>
 </Window>
