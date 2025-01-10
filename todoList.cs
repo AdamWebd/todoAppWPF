@@ -9,8 +9,26 @@ namespace todoAppWPF
     //<Summary>
     //Hanterar logiken för att lägga till, ta bort och ändra
     //</summary>
-    ínternal class todoList
+    public class todoList
     {
+        private todoList<string> tasks = new List<string>();
 
+        public void AddTask(string task)
+        {
+            tasks.Add(task);
+        }
+
+        public void RemoveTask(int index) 
+        {
+            if (index >= 0 && index < tasks.Count)
+            {
+                tasks.RemoveAt(index);
+            }
+        }
+
+        public void GetAllTasks() 
+        {
+            return tasks;
+        }
     }
 }
