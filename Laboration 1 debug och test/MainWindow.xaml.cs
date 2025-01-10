@@ -23,6 +23,12 @@ namespace TodoAppWPF
             _todoList = new TodoList();
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sender">Sender från Mainwindow</param>
+        /// <param name="e">Event</param>
+
         private void AddButton_Click(object sender, RoutedEventArgs e)
         {
             string task = TaskTextBox.Text;

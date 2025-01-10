@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "todoAppWPF", "Laboration 1 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AC5CD4E8-E072-4F2F-A792-BAE39FC7AF64}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingTodoList", "TestingTodoList\TestingTodoList.csproj", "{DA5546AB-8EBB-45C0-81D9-CDBE56A8CC94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{F1D3116B-B186-478E-B370-29E83E4A66A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1D3116B-B186-478E-B370-29E83E4A66A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1D3116B-B186-478E-B370-29E83E4A66A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA5546AB-8EBB-45C0-81D9-CDBE56A8CC94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA5546AB-8EBB-45C0-81D9-CDBE56A8CC94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA5546AB-8EBB-45C0-81D9-CDBE56A8CC94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA5546AB-8EBB-45C0-81D9-CDBE56A8CC94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
