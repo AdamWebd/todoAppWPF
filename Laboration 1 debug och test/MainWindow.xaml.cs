@@ -20,5 +20,15 @@ namespace Laboration_1_debug_och_test
         {
             InitializeComponent();
         }
+
+        private void AddButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void RemoveButton_Click(Object sender, RoutedEventArgs e) 
+        { 
+
+        }
     }
 }
