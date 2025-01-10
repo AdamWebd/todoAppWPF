@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks
 
-namespace todoAppWPF
+namespace TodoAppWPF
 {
     //<Summary>
     //Hanterar logiken för att lägga till, ta bort och ändra
     //</summary>
-    public class todoList
+    public class TodoList
     {
-        private todoList<string> tasks = new List<string>();
+        private List<string> tasks = new List<string>();
 
         public void AddTask(string task)
         {
